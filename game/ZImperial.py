@@ -83,7 +83,7 @@ class GalacticEmpireGame:
         self.planet_destruction_penalty = 250  # Штраф за уничтожение планеты
         self.economy_development_cost = 350  # Стоимость развития экономики
         self.transport_development_cost = 600  # Стоимость развития транспортных путей
-        self.victory_threshold = 1000 # Порог победы
+        self.victory_threshold = 50000 # Порог победы
 
         self.create_ui()
 
